@@ -5,11 +5,11 @@ using namespace std;
 
 int main()
 {
-    // define variables
+    // nyatakan variabel
     string operation;
     double number1, number2;
     
-    // get user input
+    // input dari user
     cout << "Masukkan Number: ";
     cin >> number1;
     cout << "Masukkan Operasi (+, -, /, *): ";
@@ -17,7 +17,7 @@ int main()
     cout << "Masukkan Number Kedua: ";
     cin >> number2;
     
-    // if else statement checking entered operation
+    // if else untuk operasi hitungan
     if (operation == "+") {
         cout << number1 + number2;
     } else if (operation == "-") {
